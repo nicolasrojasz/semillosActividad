@@ -1,0 +1,56 @@
+.titulo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.containerCard{
+margin-top: 40px;
+display: flex;
+justify-content: center;
+}
+.containerCard div{
+  margin-left: 20px;
+}
+
+.contenedor1 {
+  padding: 16px;
+}
+.boton {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.contenedor2 {
+  display: flex;
+  padding: 14px 0px 14px 0px;
+}
+.container3 {
+  display: flex;
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 0px 8px 0px 14px;
+  flex-direction: column;
+}
+.container4 {
+  flex: 1 1 auto;
+  display: flex;
+  text-align: center;
+  padding: 0px 0px 0px 8px;
+  flex-direction: column;
+}
+
+.divRespuesta {
+  display: none;
+  margin-top: 8px;
+}
+.divRespuesta2 {
+  display: none;
+  margin-top: 8px;
+}
+.divRespuesta3 {
+  display: none;
+}
+.divRespuesta4 {
+  display: none;
+}
