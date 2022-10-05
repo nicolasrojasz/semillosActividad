@@ -49,16 +49,16 @@ const operacion = () => {
   let numero3 = parseInt(document.getElementById("numero3").value);
   console.log(numero1, numero2, numero3);
   if (numero1 <= numero2 && numero1 <= numero3) {
-    promedio = Math.round( numero1 + numero2 + numero3 / 3);
+    promedio = Math.round( (numero1 + numero2 + numero3) / 3);
 
     span.innerHTML = `El Numero menor es ${numero1} y el promedio de los tres numeros es de ${promedio}`;
     alerta3.style.display = "block";
   } else if (numero2 < numero1 && numero2 < numero3) {
-    promedio = Math.round( numero1 + numero2 + numero3 / 3);
+    promedio = Math.round( (numero1 + numero2 + numero3) / 3);
     span.innerHTML = `El Numero menor es ${numero2} y el promedio de los tres numeros es de ${promedio}`;
     alerta3.style.display = "block";
   } else if (numero3 < numero1 && numero3 < numero1) {
-    promedio = Math.round(numero1 + numero2 + numero3 / 3);
+    promedio = Math.round((numero1 + numero2 + numero3) / 3);
     span.innerHTML = `El Numero menor es ${numero3} y el promedio de los tres numeros es de ${promedio}`;
     alerta3.style.display = "block";
   }
